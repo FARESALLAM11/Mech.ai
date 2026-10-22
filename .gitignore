@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Frontend build
+dist/
+dist-ssr/
+
+# Rust / Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and local tooling
+*.log
+native-build.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local shortcuts and launchers that point at this machine
+*.lnk
+
+# Test / coverage
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
