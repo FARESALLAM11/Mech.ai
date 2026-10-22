@@ -7,7 +7,7 @@
 
 An open-source multi-agent orchestration platform and desktop environment that coordinates specialized AI models to plan, code, test, and review your tasks—delivering production-ready Diffs and Pull Requests.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-GNU-3.0-blue.svg)](LICENSE)
 [![Built with Tauri](https://img.shields.io/badge/Built_with-Tauri_&_Rust-orange.svg)](#tech-stack)
 [![BYOK](https://img.shields.io/badge/API-Bring_Your_Own_Key-success.svg)](#key-features)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
