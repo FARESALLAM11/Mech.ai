@@ -1,13 +1,13 @@
-# Mech — Project Status & Next Steps
+# Relay — Project Status & Next Steps
 
 > **Generated:** 2026-10-20  
-> **Location:** project root
+> **Location:** `C:\Users\Fares Sayed\.gemini\antigravity\scratch\Relay`
 
 ---
 
 ## 📋 Full Project Summary
 
-**Mech** is a desktop application for Windows and macOS that orchestrates AI models to perform coding tasks reliably. The user selects a project, describes a task (e.g., "fix the login bug"), and Mech analyzes the project, plans, executes in an isolated sandbox, runs tests, and delivers the result as a **reviewable Diff or Pull Request** — with a full log of every step and cost.
+**Relay** is a desktop application for Windows and macOS that orchestrates AI models to perform coding tasks reliably. The user selects a project, describes a task (e.g., "fix the login bug"), and Relay analyzes the project, plans, executes in an isolated sandbox, runs tests, and delivers the result as a **reviewable Diff or Pull Request** — with a full log of every step and cost.
 
 ### Core Principles
 1. **Trust before intelligence** — every change is reversible, every sensitive command needs approval
@@ -71,7 +71,7 @@
 - **macOS Sandbox** — Seatbelt `sandbox-exec` profile generation
 
 ### Phase 5–6: Extensions & Providers (22/22 tests passing)
-- **Extension Manifest** — `mech-extension.json` schema with permissions, hooks, MCP tools
+- **Extension Manifest** — `Relay-extension.json` schema with permissions, hooks, MCP tools
 - **Auto-Detection** — scan for SKILL.md, mcp.json, AGENTS.md
 - **Extension Installer** — install from URL pinned to SHA, list, remove
 - **MCP Host** — JSON-RPC 2.0 request/response for tool integration
@@ -108,7 +108,7 @@
 ## 📁 Project Structure
 
 ```
-mech/
+Relay/
 ├── src-tauri/
 │   ├── Cargo.toml                    # Rust dependencies
 │   └── src/
@@ -189,7 +189,7 @@ mech/
 │   ├── phase5_6_runner.cjs           # Extensions + providers tests (22)
 │   └── phase7_closed_beta_runner.cjs # Integration tests (5 teams)
 ├── docs/
-│   ├── memory-format.md              # .mech/ directory spec
+│   ├── memory-format.md              # .Relay/ directory spec
 │   └── extension-manifest.md         # Extension manifest schema
 ├── fixtures/sample-project/          # Buggy auth module for PoC
 ├── .github/workflows/release.yml     # CI/CD pipeline
@@ -220,7 +220,7 @@ These are **not code issues** — they are local dev environment setup items:
 
 - Provider keys now use OS credential storage from the Providers screen; supported key IDs: OpenAI, Anthropic, Gemini, Groq, DeepSeek, and Mistral. Connection checks call each provider's authenticated models endpoint. Newly saved credentials register with the active provider registry.
 - The Home screen no longer substitutes a fake simulated task when Tauri/provider execution fails; it displays the error. Real code-edit execution is still incomplete: the current runner does not yet apply model output as source edits, execute approved project tests, or persist an accept/reject workspace session.
-- Project memory now reads and writes `.mech/decisions.md` and `.mech/rules.md` under the selected project. Analytics now reads task records from the local database and omits fabricated time-saved/provider-spend values.
+- Project memory now reads and writes `.Relay/decisions.md` and `.Relay/rules.md` under the selected project. Analytics now reads task records from the local database and omits fabricated time-saved/provider-spend values.
 - Sign-in/sign-up screen includes Google, GitHub, and Microsoft/Outlook options. OAuth buttons are intentionally disabled until app registrations, client IDs, and redirect URIs exist. No OAuth identity/backend is configured yet.
 - Remaining placeholder features identified in the UI audit: AI Repos install/toggle/remove, Diff accept/PR, pause/resume/stop task controls, settings persistence/enforcement, and approved test-command execution. These must not report success until connected to core commands.
 - Rust compilation was not validated in this environment because the Windows MSVC linker (`link.exe`) is missing. Frontend production build succeeds.
@@ -245,7 +245,7 @@ These are **not code issues** — they are local dev environment setup items:
 
 5. **Run `npm run tauri dev`**
    - This launches the actual desktop app (Tauri window with embedded frontend)
-   - First milestone: see the Mech UI running as a native window
+   - First milestone: see the Relay UI running as a native window
 
 ### Short Term (Alpha Quality)
 
@@ -308,7 +308,7 @@ These are **not code issues** — they are local dev environment setup items:
 
 ### Frontend Dev Server (works now)
 ```bash
-cd <project-root>
+cd C:\Users\Fares Sayed\.gemini\antigravity\scratch\Relay
 # Option 1: Use launcher
 launcher.bat
 
@@ -356,4 +356,4 @@ npm run tauri dev    # Launch native desktop app
 
 ---
 
-*This file is the single source of truth for where Mech stands today.*
+*This file is the single source of truth for where Relay stands today.*

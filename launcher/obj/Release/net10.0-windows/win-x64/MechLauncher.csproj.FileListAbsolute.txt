@@ -1,0 +1,12 @@
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\MechLauncher.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\MechLauncher.AssemblyInfoInputs.cache
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\MechLauncher.AssemblyInfo.cs
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\MechLauncher.csproj.CoreCompileInputs.cache
+D:\Mech\launcher\bin\Release\net10.0-windows\win-x64\MechLauncher.exe
+D:\Mech\launcher\bin\Release\net10.0-windows\win-x64\MechLauncher.deps.json
+D:\Mech\launcher\bin\Release\net10.0-windows\win-x64\MechLauncher.runtimeconfig.json
+D:\Mech\launcher\bin\Release\net10.0-windows\win-x64\MechLauncher.dll
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\MechLauncher.dll
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\refint\MechLauncher.dll
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\MechLauncher.genruntimeconfig.cache
+D:\Mech\launcher\obj\Release\net10.0-windows\win-x64\ref\MechLauncher.dll

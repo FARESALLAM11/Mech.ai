@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0u28RvX2hrQ=",
+  "success": true,
+  "projectFilePath": "D:\\Relay\\launcher\\RelayLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fares Sayed\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.10\\microsoft.net.illink.tasks.10.0.10.nupkg.sha512",
+    "C:\\Users\\Fares Sayed\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.10\\microsoft.netcore.app.runtime.win-x64.10.0.10.nupkg.sha512",
+    "C:\\Users\\Fares Sayed\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.10.nupkg.sha512",
+    "C:\\Users\\Fares Sayed\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.10\\microsoft.aspnetcore.app.runtime.win-x64.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

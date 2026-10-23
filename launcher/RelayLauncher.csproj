@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <AssemblyName>RelayLauncher</AssemblyName>
+    <RootNamespace>Relay.Launcher</RootNamespace>
+    <ApplicationIcon>assets\relay.ico</ApplicationIcon>
+    <Product>Relay</Product>
+    <AssemblyTitle>Relay Launcher</AssemblyTitle>
+    <Company>Relay</Company>
+    <Version>0.1.0</Version>
+
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets\relay-logo.png" LogicalName="relay-logo.png" />
+  </ItemGroup>
+
+</Project>

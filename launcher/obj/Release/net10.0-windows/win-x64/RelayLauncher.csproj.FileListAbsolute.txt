@@ -1,0 +1,12 @@
+D:\Relay\launcher\bin\Release\net10.0-windows\win-x64\RelayLauncher.exe
+D:\Relay\launcher\bin\Release\net10.0-windows\win-x64\RelayLauncher.deps.json
+D:\Relay\launcher\bin\Release\net10.0-windows\win-x64\RelayLauncher.runtimeconfig.json
+D:\Relay\launcher\bin\Release\net10.0-windows\win-x64\RelayLauncher.dll
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\RelayLauncher.GeneratedMSBuildEditorConfig.editorconfig
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\RelayLauncher.AssemblyInfoInputs.cache
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\RelayLauncher.AssemblyInfo.cs
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\RelayLauncher.csproj.CoreCompileInputs.cache
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\RelayLauncher.dll
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\refint\RelayLauncher.dll
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\RelayLauncher.genruntimeconfig.cache
+D:\Relay\launcher\obj\Release\net10.0-windows\win-x64\ref\RelayLauncher.dll

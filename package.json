@@ -1,9 +1,7 @@
 {
-  "name": "mech",
+  "name": "relay",
   "private": true,
   "version": "0.1.0",
-  "description": "Desktop AI coding orchestrator for Windows and macOS",
-  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
